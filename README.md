@@ -6,7 +6,7 @@ O Guardião Financeiro é um agente inteligente projetado para auxiliar usuário
 
 O agente atua como um mentor financeiro digital, analisando informações fornecidas pelo usuário e oferecendo orientações estratégicas para melhorar a saúde financeira e alcançar metas financeiras pessoais.
 
-> [!TIP]
+> [!NOTE]
 > Este projeto demonstra a aplicação prática de LLMs (Large Language Models) na criação de agentes inteligentes voltados para educação financeira, análise de dados e suporte à tomada de decisão.
 
 ---
@@ -20,7 +20,7 @@ Muitas pessoas desejam melhorar sua vida financeira, porém enfrentam dificuldad
 - dificuldade em interpretar sua situação financeira atual;
 - falta de orientação para atingir metas financeiras.
 
-> Sem um sistema de acompanhamento consistente, decisões financeiras acabam sendo tomadas de forma reativa e pouco estratégica.
+> *Sem um sistema de acompanhamento consistente, decisões financeiras acabam sendo tomadas de forma reativa e pouco estratégica.*
 
 ---
 
@@ -42,7 +42,7 @@ Entre os objetivos financeiros que podem ser definidos estão:
 - organizar a vida financeira
 - internacionalizar investimentos
 
-> O agente fornece orientações estruturadas, sempre baseadas nas informações fornecidas pelo usuário.
+> *O agente fornece orientações estruturadas, sempre baseadas nas informações fornecidas pelo usuário.*
 
 ---
 
@@ -60,8 +60,10 @@ Entre os objetivos financeiros que podem ser definidos estão:
 ---
 
 ### Arquitetura do Projeto
+### Diagrama
 
->flowchart TD
+```mermaid
+flowchart TD
     A[Usuário] --> B[Interface do Agente]
     B --> C[LLM - Modelo de Linguagem]
     C --> D[Base de Conhecimento]
@@ -69,6 +71,8 @@ Entre os objetivos financeiros que podem ser definidos estão:
     D --> C
     E --> C
     C --> F[Resposta ao Usuário]
+```
+
 ---
 
 ### Estrutura do Repositório
@@ -97,5 +101,12 @@ Entre os objetivos financeiros que podem ser definidos estão:
 ## Autor
 
 Projeto desenvolvido como estudo prático de agentes inteligentes aplicados a finanças pessoais, explorando conceitos de IA generativa, engenharia de prompts e modelagem de sistemas baseados em LLM.
+
+> [!IMPORTANT]
+> Este projeto foi desenvolvido com o apoio de um modelo de linguagem baseado em Inteligência Artificial (ChatGPT). Parte da estrutura do código, da documentação e das definições conceituais do agente foram construídas a partir de prompts elaborados pela pessoa desenvolvedora.
+> As sugestões geradas pela IA foram analisadas, adaptadas e integradas ao projeto conforme os objetivos e necessidades da solução proposta.
+
+
+
 
 
