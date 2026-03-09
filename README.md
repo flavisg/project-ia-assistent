@@ -1,4 +1,4 @@
-# 🤖 GUARDÃO FINANCEIRO
+# 🤖 GUARDIÃO FINANCEIRO
 
 ## Assistente Inteligente para Planejamento e Monitoramento Financeiro
 
